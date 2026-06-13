@@ -1,0 +1,30 @@
+{
+  "name": "أذان — مواقيت الصلاة",
+  "short_name": "أذان",
+  "description": "تطبيق مواقيت الصلاة لدول الخليج مع أجواء تفاعلية",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "portrait",
+  "dir": "rtl",
+  "lang": "ar-SA",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "categories": ["lifestyle", "utilities"],
+  "shortcuts": [
+    {
+      "name": "مواقيت الصلاة",
+      "short_name": "المواقيت",
+      "description": "عرض أوقات الصلاة اليوم",
+      "url": "/"
+    }
+  ]
+}
