@@ -9,6 +9,6 @@ const router = createRouter(queryClient);
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <RouterProvider router={router} context={{ queryClient }} />
+    <RouterProvider router={router} />
   </StrictMode>,
 );

@@ -106,6 +106,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 });
 
 function RootShell({ children }: { children: ReactNode }) {
+  // Client-side: html/head/body موجودين في index.html
+  if (typeof document !== "undefined") {
+    return <>{children}</>;
+  }
+  // SSR: نضيف الغلاف الكامل
   return (
     <html lang="ar" dir="rtl">
       <head>

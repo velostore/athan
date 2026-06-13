@@ -64,7 +64,7 @@ function AppPage() {
           {/* Desktop app downloads */}
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="https://github.com/YOUR_USERNAME/athan/releases/latest/download/athan_1.0.0_x64.msi"
+              href="https://github.com/velostore/athan/releases/latest/download/athan_1.0.0_x64.msi"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-6 py-4 rounded-2xl bg-primary text-primary-foreground font-semibold hover:opacity-90 transition shadow-lg"
@@ -76,7 +76,7 @@ function AppPage() {
               </div>
             </a>
             <a
-              href="https://github.com/YOUR_USERNAME/athan/releases/latest/download/athan_1.0.0_x64.dmg"
+              href="https://github.com/velostore/athan/releases/latest/download/athan_1.0.0_x64.dmg"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-6 py-4 rounded-2xl bg-secondary text-foreground font-semibold hover:bg-primary hover:text-primary-foreground transition shadow-lg border border-border"
@@ -88,7 +88,7 @@ function AppPage() {
               </div>
             </a>
             <a
-              href="https://github.com/YOUR_USERNAME/athan/releases/latest/download/athan_1.0.0_x86_64.AppImage"
+              href="https://github.com/velostore/athan/releases/latest/download/athan_1.0.0_x86_64.AppImage"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-6 py-4 rounded-2xl bg-secondary text-foreground font-semibold hover:bg-primary hover:text-primary-foreground transition shadow-lg border border-border"
